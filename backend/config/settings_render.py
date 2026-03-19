@@ -142,14 +142,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ---
 
-## File 3 — `backend/requirements.txt`
-```
-Django>=4.2,<5.2
-djangorestframework>=3.14
-djangorestframework-simplejwt>=5.3
-django-cors-headers>=4.3
-django-filter>=23.5
-whitenoise>=6.6
-gunicorn>=21.2
-dj-database-url>=2.1.0
-psycopg2-binary>=2.9.9
