@@ -63,7 +63,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi_render.application'
 
-# PostgreSQL via DATABASE_URL env var
 DATABASE_URL = os.environ.get('DATABASE_URL', '')
 
 if DATABASE_URL:
@@ -138,7 +137,3 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-```
-
----
-
